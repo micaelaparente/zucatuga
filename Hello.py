@@ -73,7 +73,7 @@ st.title("Tradutor Zuca 🇧🇷🇵🇹 Tuga")
 
 
 def load_LLM():
-    llm = OpenAI(temperature=0.7, openai_api_key= openai_api_key, seed = -1 )
+    llm = OpenAI(temperature=0.7, openai_api_key= openai_api_key)
     return llm
     
 llm = load_LLM()
